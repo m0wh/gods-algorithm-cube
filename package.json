@@ -1,0 +1,31 @@
+{
+  "name": "repo-name",
+  "version": "1.0.0",
+  "description": "repo description",
+  "scripts": {
+    "start": "parcel serve src/index.html --open",
+    "dev": "parcel serve src/index.html",
+    "build": "parcel build src/index.html --no-source-maps --public-url ."
+  },
+  "repository": "git@github.com:m0wh/repo-name.git",
+  "author": "Malo Widerspach <hello@mowh.fr>",
+  "license": "MIT",
+  "devDependencies": {
+    "@parcel/transformer-glsl": "2.0.0-beta.2",
+    "@parcel/transformer-sass": "2.0.0-beta.2",
+    "@typescript-eslint/eslint-plugin": "^2.20.0",
+    "@typescript-eslint/parser": "^2.20.0",
+    "eslint": "^6.8.0",
+    "eslint-config-standard": "^14.1.0",
+    "eslint-plugin-import": "^2.20.1",
+    "eslint-plugin-node": "^11.0.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-standard": "^4.0.1",
+    "parcel": "^2.0.0-beta.2",
+    "sass": "^1.25.0",
+    "typescript": "^3.8.2"
+  },
+  "dependencies": {
+    "three": "^0.123.0"
+  }
+}
