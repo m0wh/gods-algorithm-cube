@@ -1,10 +1,6 @@
-
-declare module '*.frag' {
+/* Example
+declare module '*.<ext>' {
   const value: string
   export default value
 }
-
-declare module '*.vert' {
-  const value: string
-  export default value
-}
+*/

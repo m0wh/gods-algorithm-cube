@@ -11,7 +11,6 @@
   "author": "Malo Widerspach <hello@mowh.fr>",
   "license": "MIT",
   "devDependencies": {
-    "@parcel/transformer-glsl": "2.0.0-beta.2",
     "@parcel/transformer-sass": "2.0.0-beta.2",
     "@typescript-eslint/eslint-plugin": "^2.20.0",
     "@typescript-eslint/parser": "^2.20.0",
@@ -26,6 +25,7 @@
     "typescript": "^3.8.2"
   },
   "dependencies": {
+    "gsap": "^3.6.1",
     "three": "^0.123.0"
   }
 }

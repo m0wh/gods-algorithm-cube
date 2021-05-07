@@ -4,7 +4,7 @@ import raf from './raf'
 
 export function init () {
   const scene = new THREE.Scene()
-  const camera = new THREE.PerspectiveCamera(60, window.innerWidth / window.innerHeight, 0.1, 100)
+  const camera = new THREE.PerspectiveCamera(30, window.innerWidth / window.innerHeight, 0.1, 100)
   const renderer = new THREE.WebGLRenderer({ antialias: true })
   const controls = new OrbitControls(camera, renderer.domElement)
 
@@ -13,6 +13,8 @@ export function init () {
 
   controls.enableDamping = true
   controls.enableZoom = false
+  controls.autoRotate = true
+  controls.autoRotateSpeed = 2
 
   window.addEventListener('resize', () => {
     camera.aspect = window.innerWidth / window.innerHeight
