@@ -1,4 +1,39 @@
 body {
   margin: 0;
-  overflow: hidden;
+  overflow-x: hidden;
+  color: #fff;
+  font-family: 'NB International Pro', Helvetica;
+}
+
+main {
+  margin-top: 50vh;
+}
+
+h1 {
+  margin: 20vw calc(200vw / 9) 10vw calc(100vw / 9);
+  font-size: 20vw;
+}
+
+p {
+  margin: 10vw calc(300vw / 9) 10vw calc(100vw / 9);
+  font-size: 4vw;
+
+  &:nth-of-type(2n) {
+    margin: 10vw calc(200vw / 9) 10vw calc(200vw / 9);
+    text-align: center;
+  }
+
+  &:nth-of-type(3n) {
+    margin: 10vw calc(200vw / 9) 10vw calc(200vw / 9);
+    text-align: right;
+  }
+}
+
+canvas {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
 }
